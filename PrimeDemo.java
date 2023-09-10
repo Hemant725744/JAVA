@@ -3,12 +3,12 @@ public class PrimeDemo
 {
     public static void main(String[] args)
     {
-        int num,i,flag=1;
+        int num,i,flag=1;                       
         Scanner s = new Scanner(System.in);
-        System.out.println("Enter a Number to cheak ");
+        System.out.println("Enter a Number to cheak ");     //Take Number From User
         num = s.nextInt();
 
-        for (i=2;i<num;i++)
+        for (i=2;i<num;i++)                                   //For loop Cheaking the number is Prime or not
         {
             if (num%i==0)
             {
