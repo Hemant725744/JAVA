@@ -5,14 +5,14 @@ public class Largest_Of_Two
     public static void main(String[] args) 
     {
         int a,b;
-        System.out.print("Enter First Number");
-        Scanner s = new Scanner(System.in);
+        System.out.print("Enter First Number");         //Accept first number
+        Scanner s = new Scanner(System.in);             
         a = s.nextInt();
         
-        System.out.print("Enter Second Number");
+        System.out.print("Enter Second Number");        //Accept Second number
         b = s.nextInt();
 
-        if(a>b)
+        if(a>b)                                           //Comparing a and b
         {
             System.out.println("Largests is "+a);
         }
