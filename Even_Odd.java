@@ -9,12 +9,12 @@ public class Even_Odd
         System.out.println("Enter a number ");
         a = s.nextInt();
 
-        if (a%2==0)
+        if (a%2==0)                                                //Condition for even
         {
             System.out.println("Number is Even = "+a);
         }
 
-        else
+        else                                                       //If Condition is False the excecute this
         {
             System.out.println("Number is Odd = "+a);
         }
