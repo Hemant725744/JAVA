@@ -22,7 +22,7 @@ public class CalculatorDemo
 
         switch(ch)
         {
-            case 1 : System.out.println("Addition is "+a+b);
+            case 1 : System.out.println("Addition is "+(a+b));
                      break;
             
             case 2 : System.out.println("Subtraction is "+(a-b));
