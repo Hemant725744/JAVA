@@ -4,13 +4,14 @@ public class CalculatorDemo
 {
     public static void main(String[] args) 
     {
+        //Accept the input
         int a,b,ch;
         Scanner s = new Scanner(System.in);
         System.out.println("Enter First number");
         a = s.nextInt();
         System.out.println("Enter Second number");
         b = s.nextInt();
-
+        //Main Menu
         System.out.println("************Main Menu*************");
         System.out.println("1.Addition");
         System.out.println("2.Subraction");
@@ -19,7 +20,7 @@ public class CalculatorDemo
 
         System.out.println("Enter Choice ");
         ch = s.nextInt();
-
+        //Various Operation USing switch
         switch(ch)
         {
             case 1 : System.out.println("Addition is "+(a+b));
