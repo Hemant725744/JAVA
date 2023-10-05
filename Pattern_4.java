@@ -7,7 +7,7 @@ public class Pattern_4
         {
             for(j=1;j<=i;j++)               //Outter loop for Colown or (Printing loop)
             {
-                System.out.print(j);
+                System.out.print( "\t"+j);
             }
             System.out.println();
         } 
@@ -16,7 +16,7 @@ public class Pattern_4
         {
             for(j=1;j<=i;j++)
             {
-                System.out.print(j);
+                System.out.print("\t"+j);
             }
             System.out.println();
         }
